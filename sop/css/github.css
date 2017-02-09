@@ -4,16 +4,29 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	
 }
 header{
+	font-weight: 700;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	padding-top: 40px;
-	margin-bottom: 15px;
-	/*padding-bottom: 20px;*/
+	padding: 40px 0px 20px 0px;
+}
+.title{
+	font-size: 60px;
+}
+
+nav{
+	padding: 20px 0px 40px 0px;
+}
+a{
+	color:#4C1D22;
+	text-decoration: none;
+	padding:0px 20px 0px 20px;
+}
+a:hover{
+	color:#CC4E5B;
 }
 /*heart container*/
 /*.heartcontain{
@@ -69,11 +82,12 @@ header{
 	height:375px;
 	display: none;
 	padding: 50px;
-	text-align: center;
+	/*text-align: center;*/
 }
 /*slides*/
 #one{
 	font-size: 100px;
+	text-align: center;
 }
 /*buttons*/
 button{
@@ -99,21 +113,16 @@ button:hover{
 
 
 
-a{
-	color:#4C1D22;
-	text-decoration: none;
-}
-a:hover{
-	color:#993A44;
-}
+
 ul{
 	font-size: 16px;
 	width:500px;
-	list-style-position: inside;
+	list-style-type: none;
+	
 }
 li{
-	list-style-type: none;
-	text-align: center;
+	/*list-style-type: none;*/
+
 	margin: 20px 0px 20px 0px;
 }
 p{
