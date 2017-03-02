@@ -21,7 +21,9 @@ h2{
 	font-size: 20px;
 }
 h3{
-	padding: 50px;
+	vertical-align: top;
+	margin-top: 50px;
+	/*height: 200px;*/
 }
 div.project{
 	height: 200px;
