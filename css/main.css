@@ -473,17 +473,21 @@ h2 {
 }
 
 h3 {
-  vertical-align: top;
-  margin-top: 50px;
-  /*height: 200px;*/
+  font-size: 28px;
+  margin: 0px;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+  width: 160px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0);
+  color: transparent;
 }
 
-div.project {
-  height: 200px;
-  width: 200px;
-  background-color: white;
-  margin: 50px 50px 50px 50px;
-  display: inline-block;
+h3:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .icon-sprite, .icon-corpsethumb, .icon-gitthumb, .icon-sopthumb, .icon-spritethumb, .icon-spritethumbt {
@@ -509,6 +513,10 @@ div.project {
 
 .icon-spritethumbt {
   background-position: 0 -800px;
+}
+
+ul {
+  padding: 0px;
 }
 
 li {
