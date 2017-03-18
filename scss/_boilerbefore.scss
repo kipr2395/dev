@@ -1,38 +1,50 @@
 body{
 	text-align: center;
-	background-image: url(../img/background.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-attachment: fixed;
-	background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+	// background-image: url(../img/background.jpg);
+	// background-repeat: no-repeat;
+	// background-position: center top;
+	// background-attachment: fixed;
+	// background-size: cover;
+	font-family: 'Lato', sans-serif;
 	/*font-family: 'Lora', serif;*/
-	color: white;
+	color: black;
 }
 header{
 	height: 250px;
 	padding-top: 60px;
 }
 h1{
-	font-weight: 800;
-	font-size: 50px;
+	font-family: 'Sacramento', cursive;
+	font-size: 5em;
 }
 h2{
 	font-size: 20px;
 }
 h3{
-	font-size: 28px;
-	margin:0px;
-	padding-top: 50px;
-	padding-right: 20px;
-	padding-left: 20px;
-	position: absolute;
-	width:160px;
-	height:150px;
-	background: rgba(255,255,255,0);
-	color:rgba(0,0,0,0);
+	
+	// padding-left: 25px;
+	// padding-right:25px;
+	position:absolute;
+	z-index: 1;
+	color:white;
+	width:200px;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+	font-size: 2.5em;
 }
 h3:hover{
-	background: rgba(255,255,255,0.8);
-	color:rgba(0,0,0,1);
+	color: rgba(255,255,255,0.0);
+}
+
+
+.sop, .exq, .spr, .fau, .git{
+    position: absolute;
+}
+
+svg{
+/*  margin-top: -50px;
+  margin-left: -50px;*/
+}
+svg:hover{
+  opacity:0.0;
 }
