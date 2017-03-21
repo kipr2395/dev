@@ -448,7 +448,7 @@ template {
 
 body {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poiret One', cursive;
   /*font-family: 'Lora', serif;*/
   color: black;
 }
@@ -470,13 +470,13 @@ h3 {
   box-sizing: border-box;
   height: 200px;
   width: 200px;
-  padding-top: 40px;
+  padding-top: 55px;
   position: absolute;
   z-index: 1;
   color: white;
   margin-top: 0px;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
   background-color: #453B4C;
   border: 1px solid #453B4C;
   border-radius: 100px;
