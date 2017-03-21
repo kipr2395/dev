@@ -459,7 +459,6 @@ header {
 }
 
 h1 {
-  font-family: 'Sacramento', cursive;
   font-size: 5em;
 }
 
@@ -468,30 +467,32 @@ h2 {
 }
 
 h3 {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  padding-top: 40px;
   position: absolute;
   z-index: 1;
   color: white;
-  width: 200px;
+  margin-top: 0px;
   text-align: center;
-  font-family: 'Sacramento', cursive;
   font-size: 2.5em;
+  background-color: #453B4C;
+  border: 1px solid #453B4C;
+  border-radius: 100px;
 }
 
 h3:hover {
-  color: rgba(255, 255, 255, 0);
+  opacity: 0;
 }
 
 .sop, .exq, .spr, .fau, .git {
   position: absolute;
 }
 
-svg {
-  /*  margin-top: -50px;
-    margin-left: -50px;*/
-}
-
-svg:hover {
-  opacity: 0.0;
+ul {
+  width: 60%;
+  margin: 50px auto;
 }
 
 .icon-sprite, .icon-corpsethumb, .icon-fauxthumb, .icon-gitthumb, .icon-sopthumb, .icon-spritethumb, .icon-spritethumbt {
