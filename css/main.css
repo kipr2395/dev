@@ -449,7 +449,6 @@ template {
 body {
   text-align: center;
   font-family: 'Poiret One', cursive;
-  /*font-family: 'Lora', serif;*/
   color: black;
 }
 
@@ -495,8 +494,8 @@ ul {
   margin: 50px auto;
 }
 
-.icon-sprite, .icon-corpsethumb, .icon-fauxthumb, .icon-gitthumb, .icon-sopthumb, .icon-spritethumb, .icon-spritethumbt {
-  background-image: url('../img/icon-s386dd9bcc5.png');
+.icon-sprite, .icon-corpsethumb, .icon-fauxthumb, .icon-flexthumb, .icon-gitthumb, .icon-sopthumb, .icon-spritethumb, .icon-spritethumbt {
+  background-image: url('../img/icon-s76a278a71f.png');
   background-repeat: no-repeat;
 }
 
@@ -508,20 +507,24 @@ ul {
   background-position: 0 -200px;
 }
 
-.icon-gitthumb {
+.icon-flexthumb {
   background-position: 0 -400px;
 }
 
-.icon-sopthumb {
+.icon-gitthumb {
   background-position: 0 -600px;
 }
 
-.icon-spritethumb {
+.icon-sopthumb {
   background-position: 0 -800px;
 }
 
-.icon-spritethumbt {
+.icon-spritethumb {
   background-position: 0 -1000px;
+}
+
+.icon-spritethumbt {
+  background-position: 0 -1200px;
 }
 
 ul {
